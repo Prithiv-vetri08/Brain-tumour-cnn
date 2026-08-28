@@ -1,6 +1,6 @@
 # Brain Tumour MRI Classification with CNNs
 
-Exam 1 — Artificial Intelligence / Machine Learning (BST-AM)
+Exam 1 - Artificial Intelligence / Machine Learning (BST-AM)
 Prithiv Ramvasan Vetri Selvan · 3121993
 B.Eng. Mechatronic Systems Engineering, SRH Berlin University of Applied Sciences
 
