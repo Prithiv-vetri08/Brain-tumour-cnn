@@ -68,7 +68,7 @@ about 11 minutes.
 ## Files
 
 ```
-report.pdf       the report (8 pages)
+report.pdf       the report 
 report/          LaTeX source and figures
 notebooks/       the notebook, with outputs saved
 figures/         every figure as a PNG, with a key to where each one is used
