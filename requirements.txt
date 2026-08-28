@@ -1,0 +1,28 @@
+# Brain Tumour MRI Classification — dependencies
+#
+# PyTorch ships from its own index, not PyPI. Install it FIRST:
+#
+#   CPU-only :  pip install torch==2.13.0 torchvision==0.28.0 \
+#                   --index-url https://download.pytorch.org/whl/cpu
+#   CUDA 12.1:  pip install torch==2.13.0 torchvision==0.28.0 \
+#                   --index-url https://download.pytorch.org/whl/cu121
+#
+# then:  pip install -r requirements.txt
+#
+# Or just run setup_windows.ps1 (Windows) / setup.sh (Linux, macOS), which
+# does both and unpacks the dataset.
+#
+# Environment that produced results/metrics.json: Python 3.11.15, Linux
+# x86-64, CPU-only. Exact transitive pins are in requirements-lock.txt.
+
+numpy==2.4.4
+pandas==3.0.2
+pillow==12.2.0
+scikit-learn==1.8.0
+matplotlib==3.10.9
+seaborn==0.13.2
+tqdm==4.70.0
+
+# notebook
+jupyter>=1.1
+ipykernel>=6.29

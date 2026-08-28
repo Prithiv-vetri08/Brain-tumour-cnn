@@ -1,0 +1,21 @@
+# Dataset — 157 MB, and not ours to redistribute. The notebook downloads it
+# from Kaggle on first run, or see the README to place it by hand.
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# The MLP baseline checkpoint is 96 MB; the two CNN checkpoints (5 MB each)
+# ARE tracked, so a fresh clone reproduces every figure without retraining.
+results/best_baseline.pt
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
